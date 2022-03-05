@@ -1,0 +1,66 @@
+body{
+    background: rgb(172, 172, 99);
+    font-family: 'Akaya Telivigala', cursive;  
+    margin:5%;
+}
+h1{
+    font-size:200%;
+    font-weight: bold;
+    text-align:center;
+    padding:5%;
+}
+h2{
+    font-size:140%;
+    font-weight: bold;
+    text-align:center;
+    
+}
+.dragc{
+    text-align:center;
+    display: grid;
+    grid-gap: 20px;
+}
+.dropc{
+    text-align:center;
+    display: grid;
+    grid-gap: 20px;
+}
+.cercle {
+    grid-row:2;
+    margin:1%;
+    opacity:1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-width: thick;
+    border-color: black;
+}
+.cercle:hover {
+    opacity:0.9;
+    border-color: white;
+}
+.champ {
+    grid-row:1;
+    border-style:dashed;
+    margin:1%;
+    opacity:1;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    border-width: thick;
+    border-color: black;
+    background-color: grey;
+}
+.champ:hover {
+    opacity:0.5;
+
+}
+hr{
+    margin:5%;
+}
+button{
+    font-family: 'Akaya Telivigala', cursive;  
+    padding: 2%;
+    border-radius: 6px;
+
+}
