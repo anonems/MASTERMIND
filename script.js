@@ -52,6 +52,7 @@ function drop(ev) {
         }          
         if(liste_choisi === liste_cacher){
             alert('bravo ! vous avez trouvé la bonne combinaison.')
+            window.location.replace("http://www.w3schools.com");
         }else{
             let pas_bien=0
             for(let j=0; j<=3; j++){
@@ -60,6 +61,7 @@ function drop(ev) {
                 }
             }
             alert(pas_bien +" de vos choix sont faux. La combinaison à trouver été : "+liste_cacher)
+            window.location.replace("http://www.w3schools.com");
             
         }
     }
