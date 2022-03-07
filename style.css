@@ -17,7 +17,6 @@ h2{
 .dragc {
     text-align:center;
     display: grid;
-    grid-gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +24,6 @@ h2{
 .dropc{
     text-align:center;
     display: grid;
-    grid-gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,4 +69,29 @@ button{
 }
 button:hover{
 background-color: bisque;
+}
+@media screen and (max-width: 650px) {
+    h1{
+        font-size:150%;
+    }
+    h2{
+        font-size:90%;
+    }
+    .cercle {
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+    }
+    .champ {
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+
+    }
+    button{
+        font-family: 'Akaya Telivigala', cursive;  
+        padding: 1%;
+        border-radius: 6px;
+        font-size: 90%;
+    }
 }
